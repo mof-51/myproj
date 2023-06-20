@@ -27,6 +27,13 @@
       database: 'qiita_public',
       startInSignedMode: true
     });
+    // Configure an instance for your database
+    var td = new Treasure({
+      host: 'in.treasuredata.com',
+      writeKey: '10614/e3887673c1849754466b09ad01b4fbbc22b88f30',
+      database: 'qiita_public',
+      startInSignedMode: true
+    });
     // wrapper object to use default parameter
     var tdClient = {
       td: td,
@@ -115,6 +122,11 @@
     <span id="オプション" class="fragment"></span><a href="#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3"><i class="fa fa-link"></i></a>オプション</h3>
     <table data-sourcepos="37:1-52:33">
     <thead>
+    <tr data-sourcepos="37:1-37:43">
+    <th data-sourcepos="37:2-37:16">オプション</th>
+    <th data-sourcepos="37:18-37:35">意味（原文）</th>
+    <th data-sourcepos="37:37-37:42">意味</th>
+    </tr>
     <tr data-sourcepos="37:1-37:43">
     <th data-sourcepos="37:2-37:16">オプション</th>
     <th data-sourcepos="37:18-37:35">意味（原文）</th>
